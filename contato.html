@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Code - Contato</title>
+	<link rel="stylesheet" type="text/css" href="css/folhadeestilo.css">
+</head>
+
+<body class='color-page'>
+	<div class="container-principal" id="topo">
+		<header>
+			<div class="logo">
+				<a href="index.html">
+					<img src="imagem/logo.png" alt="logo site"></img>
+				</a>		
+			</div>			
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="clientes.html">Clientes</a></li>
+					<li><a href="sobre.html">Sobre</a></li>
+					<li><a href="#topo.html">Contato</a></li>
+				</ul>
+			</nav>			
+		</header>
+
+		<div class='img-titulo'><img src="imagem/contato.png" alt="imagem de contato"></div>
+
+		<section id="txt-contato">
+			<form name="meu_form" id="meu_form">
+				<p class="nome">
+					<label for="nome">Nome</label><br>
+					<input type="text" id="nomeid" placeholder="Ex: Nome e Sobrenome" required="required" name="nome"/>
+				</p>
+				<p class="fone">
+					<label for="fone">Fone:</label></br>
+					<input type="phone" id="foneid" placeholder="(xx)xxxxx-xxxx" name="fone" />
+				</p>
+				<p>
+					<label for="email">Email:</label><br>
+					<input type="email" id="emailid" placeholder="seuemail@hospedagem.com" name="email" required="required"/>
+				</p><br>
+				<p>
+					<textarea placeholder="mensagem" required="required"></textarea>
+				</p>
+				<button type="submit" form="meu_form">Enviar</button>
+			</form>
+
+			<div id="conta-data">
+				<h4>Code - Desenvolvimento de sites</h4><br>
+				<h5><img src="imagem\icoadress.png" alt="endereço"><br>Avenida Novos Conhecimentos nº 2016</h5>
+				<h5><img src="imagem\icoTelefone.png" alt="telefone"><br>+55 21 99999-9999</h5>
+				<h5><img src="imagem\icoMail.png" alt="email"><br>contato@code.com.br</h5>
+				<h5><img src="imagem\icoface.png" alt="facebook"><br>facebook.com\codedev</h5>
+				<h5><img src="imagem\icoinsta.png" alt="instagram"><br>@codedev</h5>
+
+		</section>
+
+	</div>
+</body>
+</html>
